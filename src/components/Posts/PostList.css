@@ -1,0 +1,23 @@
+.icon-row {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   padding-bottom: 0px;
+   gap: 20px;
+   width: auto;
+   height: 50px;
+   
+}
+
+.icon-row-item{
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+gap: 10px;
+
+}

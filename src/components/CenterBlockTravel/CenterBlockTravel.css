@@ -1,0 +1,45 @@
+.CenterBlockTravel {
+   color: #FFF;
+   text-align: center;
+   text-shadow: 4px 10px 48px rgba(0, 0, 0, 0.37);
+   font-family: Europa-Bold;
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+}
+.CenterBlockTravel p {
+color: #FFF;
+text-align: center;
+font-family: Europa-Regular;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.CenterBlockTravel button {
+border-radius: 8px;
+border: 2px solid #FFF;
+background: #FFF;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.06);
+}
+
+.CenterBlockTravel span{
+display: flex;
+padding: 15px 51.5px;
+justify-content: center;
+align-items: center;
+color: #121416;
+font-family: Europa-Bold;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+}
+
+.CenterBlockTravel button:hover {
+background: #6C757D;
+box-shadow: 0px 10px 10px 0px rgba(177, 176, 176, 0.06);
+}

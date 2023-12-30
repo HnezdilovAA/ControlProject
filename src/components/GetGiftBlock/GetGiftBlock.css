@@ -1,0 +1,30 @@
+.GetGift-text {
+   display: flex;
+height: 54px;
+width: 490px;
+padding: 10px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 2px;
+background: #000;
+margin-left: 5px;
+}
+.GetGift-text p {color: var(--White, #FFF);
+   text-align: center;
+   text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+   font-family: Sansita;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.28px;
+   text-transform: uppercase;}
+.GetGift-text span {color: var(--White, #FFF);
+   font-family: Sansita;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   letter-spacing: 1.6px;
+   text-transform: uppercase;}

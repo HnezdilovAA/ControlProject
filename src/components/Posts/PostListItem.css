@@ -1,0 +1,108 @@
+* {
+   margin: 0px;
+   
+}
+.CardContentTop {
+   padding: 0px;
+ 
+
+  }
+
+.posts-list-item {
+   position:relative ;
+   padding: 0px;
+   border-top: 1px solid grey;
+   box-shadow: 2px 2px 2px grey;
+   
+   }
+
+.product-img {
+   position: relative;
+   padding: 0px;
+}
+
+.product-img-dark{
+  
+
+}
+.blockOnPhoto {
+   position: absolute;
+   color: white;
+   top: 10px;
+   left: 50px;
+   z-index: 10;
+
+}
+
+
+.ShareIcon svg:hover {
+   fill:#6C757D
+}
+.ShareIcon span{
+color: #6C757D;
+font-family: EuropaNuova-Regular;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+text-transform: none;
+margin-left: 3px;
+}
+.CartHeaderAuthor {
+color: #121416;
+}
+.TwoblockOnPhotoAll {
+   display: flex;
+   gap: 30px;
+   line-height: 35px;
+   
+}
+.TwoblockOnPhoto {
+   padding: 4px 8px;
+   margin-left: -25px;
+   border-radius: 4px;
+   background: rgba(0, 0, 0, 0.15);
+   backdrop-filter: blur(6px);
+   background-image: linear-gradient(
+      to button,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.65) 100%
+    ), url('');
+  
+}
+.blockOnPhoto {
+   display: flex;
+   padding: 0px;
+   margin-left: 0px;
+ 
+}
+/* .EndBlockPhoto button {
+   margin-left: 170px;
+   border-radius: 8px;
+ background: rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(6px);
+} */
+
+
+.EndBlockPhoto{
+display: flex;
+align-items: center;
+margin-left: 160px;
+border-radius: 50px;
+background: rgba(0, 0, 0, 0.15);
+/* background: rgba(255, 255, 255, 0.20); */
+backdrop-filter: blur(6px);
+padding: 10px 10px;}
+
+.EndBlockPhoto svg {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.btns-wrap button {
+   border-bottom: 1px solid #6C757D;
+   border-right: 1px solid #6C757D;
+   margin-top: 25px;
+   color: #121416;
+}
