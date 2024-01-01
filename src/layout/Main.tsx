@@ -1,4 +1,5 @@
 import { Container } from '@mui/material'
+import Slider from 'components/Slider/Slider'
 import Home from 'pages/Home/Home'
 
 type Props = {}
@@ -11,6 +12,7 @@ const Main = (props: Props) => {
             }}
         >
             <Home />
+            <Slider />
         </Container>
     )
 }

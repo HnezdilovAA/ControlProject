@@ -3,7 +3,6 @@ import Main from './Main'
 import Footer from './Footer'
 import CssBaseline from '@mui/material/CssBaseline'
 import { StyledEngineProvider } from '@mui/material/styles'
-import SearchIcon from '@mui/icons-material/Search'
 
 type Props = {}
 

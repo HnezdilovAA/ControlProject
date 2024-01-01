@@ -38,6 +38,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 120% */
 }
+.CenterBlockTravel span:hover{
+   color: #FFF;
+}
 
 .CenterBlockTravel button:hover {
 background: #6C757D;

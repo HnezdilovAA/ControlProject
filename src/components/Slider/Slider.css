@@ -1,0 +1,18 @@
+.SwiperWraper {
+margin-top: 50px;
+   }
+
+.SwiperWraperItem {
+   width: 320px;
+   height: 260px;
+   /* background-color: green; */
+   /* padding: 10px; */
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-image: url('./itemPhoto1.jpg'); */
+}
+/* .imgItem1 {
+   background-image: url('./itemPhoto1.jpg');
+} */
