@@ -1,18 +1,65 @@
+.sliderContent h3 {
+   color: #121416;
+   font-family: Europa-Bold;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 20px;
+   margin-top: 100px;
+   text-align: center;
+}
+
+.sliderContent p {
+   color: #121416;
+   font-family: Europa-Bold;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 20px;
+   margin-top: 16px;
+   text-align: center;
+}
+
+
 .SwiperWraper {
-margin-top: 50px;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
    }
 
 .SwiperWraperItem {
    width: 320px;
    height: 260px;
-   /* background-color: green; */
-   /* padding: 10px; */
    margin-top: 20px;
+   /* margin-left: 12px; */
    display: flex;
    justify-content: center;
    align-items: center;
-   /* background-image: url('./itemPhoto1.jpg'); */
+   gap: 5px;
+   margin-bottom: 70px;
+   position: relative;
+
+   
 }
-/* .imgItem1 {
-   background-image: url('./itemPhoto1.jpg');
-} */
+
+
+.SwiperWraperItemText {
+position: absolute;
+color: #FFF;
+text-align: center;
+font-family: Europa-Bold;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 117.164%; /* 28.119px */
+}
+.swiper-button-prev {
+   margin-left: -12px;
+
+}
+
+.swiper-button-next {
+   margin-right: -12px;
+}
+

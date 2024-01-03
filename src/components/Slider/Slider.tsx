@@ -11,7 +11,7 @@ import './Slider.css'
 type Props = {}
 const Slider = (props: Props) => {
     return (
-        <div>
+        <div className="sliderContent">
             {' '}
             <h3>Top Destinations</h3>
             <p>
@@ -22,8 +22,8 @@ const Slider = (props: Props) => {
                 className="SwiperWraper"
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={3}
+                spaceBetween={1}
+                slidesPerView={4}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
@@ -32,33 +32,59 @@ const Slider = (props: Props) => {
             >
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto1.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     {' '}
                     <img src="./images/SliderPhoto/SliderPhoto2.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Maecenas Tincidunt
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto3.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto4.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto5.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto6.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto7.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto8.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
                 <SwiperSlide className="SwiperWraperItem">
                     <img src="./images/SliderPhoto/SliderPhoto9.jpg" alt="" />
+                    <div className="SwiperWraperItemText">
+                        Dominican Republic
+                    </div>
                 </SwiperSlide>
-                ...
             </Swiper>
         </div>
     )
