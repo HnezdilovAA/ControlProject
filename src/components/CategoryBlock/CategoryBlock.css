@@ -20,7 +20,7 @@ letter-spacing: 0.5px;
    text-decoration: underline;
 }
 .CategoryBlockMenu li:hover {
-   margin-top: 5px;
+   /* margin-top: 5px; */
    text-decoration: underline;
 }
 .CategoryBlockItemAll {

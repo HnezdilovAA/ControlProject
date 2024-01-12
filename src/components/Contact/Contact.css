@@ -1,0 +1,32 @@
+.wraper-contact-header {
+   display: flex;
+   justify-content: center;
+   background-color: rgb(103, 178, 248);
+   width: 2048px;
+
+}
+.wraper-container-headercenter {
+
+}
+.wraper-all-page {
+
+}
+
+.CenterBlockTravelHeaderContact {
+   margin-top: 100px;
+}
+
+
+.wraper-container {
+   margin: 0px;
+   
+}
+
+.menu-contact {
+   margin-right: 0px;
+   margin-left: -150px;
+ }
+
+ .cart-contact {
+   margin-left: -50px;
+ }

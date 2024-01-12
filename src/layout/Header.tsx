@@ -16,19 +16,21 @@ type Props = {}
 
 const Header = (props: Props) => {
     return (
-        <div className="wraper-container">
-            <div className="container-header-photo">
-                <Container maxWidth="xl" className="header-photo">
-                    <Toolbar className="text_foto">
-                        <Logo />
-                        <Menu />
-                        <CartHeader />
-                        <GetGiftBlock />
-                    </Toolbar>
-                </Container>
-            </div>
-            <div className="CenterBlockTravelHeader">
-                <CenterBlockTravel />
+        <div className="wraper-container-headercenter">
+            <div className="wraper-container">
+                <div className="container-header-photo">
+                    <Container maxWidth="xl" className="header-photo">
+                        <Toolbar className="text_foto">
+                            <Logo />
+                            <Menu />
+                            <CartHeader />
+                            <GetGiftBlock />
+                        </Toolbar>
+                    </Container>
+                </div>
+                <div className="CenterBlockTravelHeader">
+                    <CenterBlockTravel />
+                </div>
             </div>
         </div>
     )

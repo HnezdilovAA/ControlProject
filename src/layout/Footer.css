@@ -1,8 +1,14 @@
+
+.footerWraper-home {
+   display: flex;
+   justify-content: center;
+}
 .footerWraper {
    display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 160px;
+width: 2048px;
 }
 
 .footerContainer {

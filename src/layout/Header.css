@@ -1,9 +1,14 @@
 
+.wraper-container-headercenter {
+   display: flex;
+   justify-content: center;
+}
+
 .wraper-container {
    display: flex ;
    justify-content: center;
-   margin: 0px;
    padding: 0px;
+   width: 2048px;
 }
 
 .header-photo {
