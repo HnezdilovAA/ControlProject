@@ -18,7 +18,7 @@ const CenterBlockContact = (props: Props) => {
             <div className="centerTextContact">
                 <div className="centerTextContactText">
                     {/* <hr color="grey" /> */}
-                    <p> C O N T A C T</p>
+                    {/* <p> C O N T A C T</p> */}
                 </div>
                 <div>
                     <img src="../images/ContactPhoto.jpg" alt="" />

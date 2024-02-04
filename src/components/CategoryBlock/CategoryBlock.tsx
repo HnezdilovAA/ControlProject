@@ -1,4 +1,6 @@
 import './CategoryBlock.css'
+import Button from '@mui/material/Button'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 const CategoryBlock = (props: Props) => {
@@ -6,12 +8,22 @@ const CategoryBlock = (props: Props) => {
         <div className="CategoryBlockWraper">
             <div className="CategoryBlockMenu">
                 <ul>
-                    <li>Category name</li>
-                    <li>Category name</li>
-                    <li>Category name</li>
-                    <li>Category name</li>
-                    <li>Category name</li>
-                    <li>Category name</li>
+                    <Button color="inherit">
+                        <Link to="/categoryone">
+                            <li>Category 1</li>
+                        </Link>
+                    </Button>
+                    <Button color="inherit">
+                        <Link to="/categorysecond">
+                            {' '}
+                            <li>Category 2</li>
+                        </Link>
+                    </Button>
+                    <Button color="inherit">
+                        <Link to="/categorythird">
+                            <li>Category 3</li>
+                        </Link>
+                    </Button>
                 </ul>
                 <hr />
             </div>

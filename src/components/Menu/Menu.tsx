@@ -12,9 +12,14 @@ function Menu(props: Props) {
                     <Link to="/">HOME</Link>
                 </Button>
                 <Button color="inherit">FOOD</Button>
-                <Button color="inherit">WELL BEING</Button>
                 <Button color="inherit">SPORT</Button>
-                <Button color="inherit">FAMILY</Button>
+                <Button color="inherit">
+                    <Link to="/category">CATEGORY</Link>
+                </Button>
+
+                <Button color="inherit">
+                    <Link to="/aboutus">ABOUT US</Link>
+                </Button>
                 <Button color="inherit">
                     <Link to="/contacts">CONTACT</Link>
                 </Button>

@@ -182,3 +182,13 @@ line-height: 24.577px; /* 136.536% */
    letter-spacing: 0.3px;
    /* margin-top: 20px; */
 }
+
+.BorderBottonClick {
+   border: 0.5px solid grey;
+   color: #fff;
+   background-color: rgb(0, 179, 255);
+}
+.CategoryBlockItem-1 > img {
+   width: 600px;
+   height: 289px;
+}

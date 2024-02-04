@@ -14,7 +14,7 @@ const Home = (props: Props) => {
             <PostList />
             <TravelBlock />
             <Slider />
-            <CategoryBlock />
+            {/* <CategoryBlock /> */}
             <Footer />
         </>
     )
